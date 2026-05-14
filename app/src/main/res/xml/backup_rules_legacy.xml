@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Backup rules for Android 11 and below (API 30 and below)
+    Excludes local_preferences (debug mode) from backup while allowing
+    tuner_preferences (user settings) to be backed up.
+-->
+<full-backup-content>
+    <!-- Exclude local preferences (debug mode) from backup -->
+    <exclude domain="file" path="datastore/local_preferences.preferences_pb" />
+</full-backup-content>

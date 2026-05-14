@@ -1,0 +1,34 @@
+# Build outputs
+*.apk
+*.aab
+*.aar
+*.ap_
+
+# Gradle
+.gradle/
+build/
+
+# Local config (Android SDK path, signing config, etc.)
+local.properties
+
+# IntelliJ / Android Studio
+*.iml
+.idea/
+
+# Kotlin compiler sessions
+.kotlin/
+
+# Signing keys (defense in depth — none currently in repo)
+*.jks
+*.keystore
+*.p12
+*.pfx
+*.pem
+
+# Claude Code local settings
+.claude/
+
+# OS junk
+.DS_Store
+Thumbs.db
+nul

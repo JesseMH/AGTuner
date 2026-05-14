@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AG Tuner</string>
+
+    <!-- Tuning states -->
+    <string name="status_too_low">TOO LOW ↑</string>
+    <string name="status_too_high">TOO HIGH ↓</string>
+    <string name="status_in_tune">IN TUNE</string>
+    <string name="status_calibrating">CALIBRATING…</string>
+    <string name="status_no_signal">PLAY A STRING</string>
+
+    <!-- Buttons -->
+    <string name="start_tuning">START TUNING</string>
+    <string name="stop_tuning">STOP TUNING</string>
+    <string name="settings">Settings</string>
+    <string name="configure_strings">Configure Strings</string>
+    <string name="select_string">SELECT STRING</string>
+    <string name="grant_microphone_access">GRANT MICROPHONE ACCESS</string>
+    <string name="add_string">ADD STRING</string>
+    <string name="reset_to_standard_guitar">Reset to Standard Guitar</string>
+    <string name="select_note">Select Note</string>
+    <string name="cancel">Cancel</string>
+    <string name="auto_mode">Auto</string>
+    <string name="tuning_to">Tuning to: %1$s</string>
+    <string name="strings_configured">%1$d strings configured</string>
+
+    <!-- Section headers -->
+    <string name="tuning_section">TUNING</string>
+    <string name="feedback_options">FEEDBACK OPTIONS</string>
+    <string name="accessibility_section">ACCESSIBILITY</string>
+    <string name="debug_section">DEBUG</string>
+    <string name="tuning_parameters">TUNING PARAMETERS</string>
+
+    <!-- Tuning presets. *_strings are visual (Unicode ♭/♯); *_strings_spoken are TalkBack
+         variants with the accidental spelled out so screen readers always read it correctly. -->
+    <string name="tuning_preset_standard">Standard</string>
+    <string name="tuning_preset_standard_strings">E2 A2 D3 G3 B3 E4</string>
+    <string name="tuning_preset_standard_strings_spoken">E 2, A 2, D 3, G 3, B 3, E 4</string>
+    <string name="tuning_preset_half_step_down">Half-step down</string>
+    <string name="tuning_preset_half_step_down_strings">E♭2 A♭2 D♭3 G♭3 B♭3 E♭4</string>
+    <string name="tuning_preset_half_step_down_strings_spoken">E flat 2, A flat 2, D flat 3, G flat 3, B flat 3, E flat 4</string>
+    <string name="tuning_preset_drop_d">Drop D</string>
+    <string name="tuning_preset_drop_d_strings">D2 A2 D3 G3 B3 E4</string>
+    <string name="tuning_preset_drop_d_strings_spoken">D 2, A 2, D 3, G 3, B 3, E 4</string>
+    <string name="tuning_preset_custom">Custom</string>
+    <string name="tuning_preset_custom_strings">Edited via Configure Strings</string>
+    <string name="tuning_preset_custom_strings_spoken">Edited via Configure Strings</string>
+    <string name="tuning_preset_selected_desc">%1$s tuning, %2$s, selected</string>
+    <string name="tuning_preset_unselected_desc">%1$s tuning, %2$s, not selected, double tap to apply</string>
+
+    <!-- Accessibility -->
+    <string name="string_selector_description">String %1$d, %2$s, %3$d Hertz</string>
+    <string name="string_selected">currently selected</string>
+    <string name="string_auto_detected">auto-detected</string>
+    <string name="go_back">Go back</string>
+    <string name="configure_strings_desc">Configure strings</string>
+    <string name="open_settings_desc">Open settings</string>
+    <string name="grant_microphone_desc">Grant microphone permission to start tuning</string>
+    <string name="add_string_desc">Add a new string</string>
+    <string name="reset_guitar_desc">Reset to standard guitar tuning</string>
+    <string name="string_config_desc">String %1$d, %2$s, %3$d Hertz. Tap to change note.</string>
+    <string name="remove_string_desc">Remove string %1$d</string>
+    <string name="note_frequency_desc">%1$s, %2$d Hertz</string>
+    <string name="auto_mode_enabled_desc">Auto mode, enabled, automatically detects which string you\'re tuning</string>
+    <string name="auto_mode_disabled_desc">Auto mode, disabled, tap to enable automatic string detection</string>
+    <string name="waiting_for_input_desc">Waiting for input, target note is %1$s</string>
+    <string name="detected_note_desc">Detected %1$s at %2$d Hertz, tuning to %3$s</string>
+
+    <!-- Accessibility info card -->
+    <string name="designed_for_accessibility">Designed for Accessibility</string>
+    <string name="accessibility_info">This app is fully compatible with TalkBack screen reader. All buttons and controls have spoken descriptions.\n\nFeedback signals:\n• Too Low: Long slow vibrations + ascending tone + voice \"up\"\n• Too High: Quick short vibrations + descending tone + voice \"down\"\n• In Tune: Steady vibration + confirmation chime + voice \"in tune\"</string>
+
+    <!-- Settings toggle titles and descriptions -->
+    <string name="audio_feedback_title">Audio Feedback</string>
+    <string name="audio_feedback_desc">Play sounds for tuning guidance</string>
+    <string name="vibration_feedback_title">Vibration Feedback</string>
+    <string name="vibration_feedback_desc">Vibrate for tuning guidance</string>
+    <string name="voice_announcements_title">Voice Announcements</string>
+    <string name="voice_announcements_desc">Speak tuning status aloud</string>
+    <string name="voice_in_tune_only_title">Voice: In-Tune Only</string>
+    <string name="voice_in_tune_only_desc">Only announce when string is in tune (off = announce all states)</string>
+    <string name="debug_mode_title">Debug Mode</string>
+    <string name="debug_mode_desc">Show real-time stats and tuning parameters</string>
+
+    <!-- Slider settings titles and descriptions -->
+    <string name="in_tune_threshold_title">In-Tune Threshold</string>
+    <string name="in_tune_threshold_desc">How far from perfect pitch still counts as in tune. Default: ±10 cents.</string>
+    <string name="pitch_smoothing_title">Pitch Smoothing</string>
+    <string name="pitch_smoothing_desc">Averages multiple readings to reduce jitter. At ~22 readings/sec, 20 samples = ~0.9 sec averaging window. Default: 20 samples.</string>
+    <string name="confidence_threshold_title">Confidence Threshold</string>
+    <string name="confidence_threshold_desc">Minimum pitch detection confidence to accept a reading. Higher = more accurate but may miss quiet notes. Default: 90%.</string>
+    <string name="state_stability_title">State Stability</string>
+    <string name="state_stability_desc">Consecutive readings needed before changing the displayed state. At ~22 readings/sec, 10 readings = ~0.5 sec delay. Default: 10 readings.</string>
+
+    <!-- Slider value labels -->
+    <string name="slider_value_cents">±%1$d cents</string>
+    <string name="slider_value_samples">%1$d samples</string>
+    <string name="slider_value_percent">%1$d%%</string>
+    <string name="slider_value_readings">%1$d readings</string>
+
+    <!-- Frequency display -->
+    <string name="frequency_hz">%1$.2f Hz</string>
+
+    <!-- Home-screen widget -->
+    <string name="widget_label">AG Tuner</string>
+    <string name="widget_description">Quick-launch the tuner in Standard, Half-Step, or Drop D.</string>
+    <!-- Short preset labels for the widget buttons. Kept terse so all three fit
+         on a single 3x2 cell row; the full preset name still appears in the
+         "Last tuned …" text below via @string/tuning_preset_*. -->
+    <string name="widget_preset_standard">Standard</string>
+    <string name="widget_preset_half_step_down">Half-Step</string>
+    <string name="widget_preset_drop_d">Drop D</string>
+    <string name="widget_last_tuned">Last tuned at %1$s on %2$s</string>
+    <string name="widget_last_tuned_with_preset">Last tuned %1$s at %2$s on %3$s</string>
+    <string name="widget_never_tuned">Not yet tuned</string>
+
+    <!-- Tuner button accessibility descriptions -->
+    <string name="stop_tuning_desc">Stop tuning. Double tap to stop.</string>
+    <string name="start_tuning_desc">Start tuning. Double tap to begin.</string>
+
+    <!-- Settings toggle accessibility -->
+    <string name="toggle_enabled">enabled</string>
+    <string name="toggle_disabled">disabled</string>
+
+    <!-- Debug overlay labels -->
+    <string name="debug_rms">RMS</string>
+    <string name="debug_peak">Peak</string>
+    <string name="debug_decay">Decay</string>
+    <string name="debug_noise">Noise</string>
+    <string name="debug_thresh">Thresh</string>
+    <string name="debug_armed">Armed</string>
+    <string name="debug_hlock">HLock</string>
+    <string name="debug_freq_samp">FreqSamp</string>
+    <string name="debug_amp_samp">AmpSamp</string>
+    <string name="debug_silent">Silent</string>
+    <string name="debug_stable">Stable</string>
+    <string name="debug_locked">Locked</string>
+    <string name="debug_attacks">Attacks</string>
+    <string name="debug_audio_fb">AudioFB</string>
+    <string name="debug_yes">Y</string>
+    <string name="debug_no">N</string>
+
+    <!-- Tuner gauge accessibility -->
+    <string name="gauge_no_signal">Tuning gauge, no signal detected</string>
+    <string name="gauge_flat">Tuning gauge, needle pointing left, note is flat by %1$d cents</string>
+    <string name="gauge_sharp">Tuning gauge, needle pointing right, note is sharp by %1$d cents</string>
+    <string name="gauge_in_tune">Tuning gauge, needle centered, note is in tune</string>
+</resources>

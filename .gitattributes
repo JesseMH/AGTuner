@@ -1,0 +1,17 @@
+# Default: let Git normalize line endings for text files
+* text=auto
+
+# Unix shell scripts must have LF endings, or they break on Linux/Mac
+gradlew text eol=lf
+*.sh text eol=lf
+
+# Windows scripts must have CRLF endings
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# Binary files — never touch line endings
+*.jar binary
+*.png binary
+*.webp binary
+*.aab binary
+*.apk binary
