@@ -5,14 +5,13 @@ A simple, fast, accessible guitar tuner for Android. No ads, no accounts, no dat
 Built because Anthony Ferraro, a blind guitarist on YouTube, mentioned in a video that there wasn't an accessibility-focused guitar tuner for phones. Every tuner app I'd tried also felt bloated — welcome screens, account prompts, in-app purchases, several taps to start tuning.
 
 <p align="center">
-  <img src="screenshots/main-tuner.jpg" alt="AG Tuner main screen showing the high E string in tune at 329 Hz" width="240" />
-  &nbsp;&nbsp;
-  <img src="screenshots/widget.jpg" alt="Home screen widget with Standard, Half-Step, and Drop D tuning buttons" width="240" />
-</p>
-<p align="center">
-  <img src="screenshots/feedback-settings.jpg" alt="Settings screen with feedback toggles and an accessibility info card" width="240" />
-  &nbsp;&nbsp;
-  <img src="screenshots/tuning-parameters.jpg" alt="Tuning parameter sliders for in-tune threshold, smoothing, confidence, and stability" width="240" />
+  <img src="screenshots/main-tuner.jpg" alt="AG Tuner main screen showing the high E string in tune at 329 Hz" width="180" />
+  &nbsp;
+  <img src="screenshots/widget.jpg" alt="Home screen widget with Standard, Half-Step, and Drop D tuning buttons" width="180" />
+  &nbsp;
+  <img src="screenshots/feedback-settings.jpg" alt="Settings screen with feedback toggles and an accessibility info card" width="180" />
+  &nbsp;
+  <img src="screenshots/tuning-parameters.jpg" alt="Tuning parameter sliders for in-tune threshold, smoothing, confidence, and stability" width="180" />
 </p>
 
 ## Features
