@@ -1,6 +1,6 @@
 # AG Tuner
 
-A simple, fast, accessible guitar tuner for Android. No ads, no accounts, no data collection — open the widget, tap a button, tune.
+A simple, fast, accessible guitar tuner for Android. No ads, no accounts, no data collection — tap a tuning on the home-screen widget, the app opens already listening, and you tune.
 
 Built because Anthony Ferraro, a blind guitarist on YouTube, mentioned in a video that there wasn't an accessibility-focused guitar tuner for phones. Every tuner app I'd tried also felt bloated — welcome screens, account prompts, in-app purchases, several taps to start tuning.
 
